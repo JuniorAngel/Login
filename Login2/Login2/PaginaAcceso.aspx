@@ -11,6 +11,7 @@
         <div>
             Bienvenido !</div>
         <asp:Label ID="lbl" runat="server" Text="Label"></asp:Label>
+        <br />
     </form>
 </body>
 </html>
