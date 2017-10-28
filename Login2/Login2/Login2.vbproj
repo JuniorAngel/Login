@@ -93,6 +93,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="PaginaAcceso.aspx" />
     <Content Include="Web.config" />
     <Content Include="Login2.aspx" />
   </ItemGroup>
@@ -121,6 +122,13 @@
     </Compile>
     <Compile Include="Login2.aspx.vb">
       <DependentUpon>Login2.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PaginaAcceso.aspx.designer.vb">
+      <DependentUpon>PaginaAcceso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaAcceso.aspx.vb">
+      <DependentUpon>PaginaAcceso.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
